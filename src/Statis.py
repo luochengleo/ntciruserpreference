@@ -2,6 +2,8 @@ __author__ = 'cheng'
 
 
 from collections import defaultdict
+
+
 def cate3kappa(annoA, annoB):
     length = -1.0
     if len(annoA)!= len(annoB):
@@ -39,5 +41,4 @@ def cate3kappa(annoA, annoB):
                 fwd += matrix[k]
         pe += pre/length * fwd/length
     return (pa-pe)/(1-pe)
-
 

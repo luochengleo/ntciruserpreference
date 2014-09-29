@@ -13,8 +13,8 @@ def direction(n):
 
 import os
 
-run2id2finedsharp = defaultdict(lambda:defaultdict(lambda:0))
-run2id2coarsedsharp = defaultdict(lambda:defaultdict(lambda:0))
+run2id2finedsharp = defaultdict(lambda:defaultdict(lambda:-1.0))
+run2id2coarsedsharp = defaultdict(lambda:defaultdict(lambda:-1.0))
 run2finedsharp = dict()
 run2coarsedsharp=dict()
 id2query =dict()
@@ -128,7 +128,7 @@ for f in os.listdir('../data/pair'):
     fout.write('Coarse_insist:,'+str(coarse_insist)+'\n')
     fout.write('Coarse_reverse:,'+str(coarse_reverse)+'\n')
     fout.write('Fine_insist:,'+str(fine_insist)+'\n')
-    fout.write('Fine_reverse:'+str(fine_reverse)+'\n')
+    fout.write('Fine_reverse:,'+str(fine_reverse)+'\n')
     if (run2coarsedsharp[left] - run2coarsedsharp[right])*allpreference >0:
         fout.write('Coarse Insist:,True\n')
     else:
@@ -140,10 +140,10 @@ for f in os.listdir('../data/pair'):
         fout.write('Fine Insist:,False\n')
     fout.write(left+','+'D#nDCG@Coarse,'+str(run2coarsedsharp[left])+',D#nDCG@Fine,'+str(run2finedsharp[left])+',AvgUserPreference,'+str(allpreference/32.0)+'\n')
     fout.write(right+','+'D#nDCG@Coarse,'+str(run2coarsedsharp[right])+',D#nDCG@Fine,'+str(run2finedsharp[right])+',AvgUserPreference,'+str(allpreference/32.0)+'\n')
-    fout.write('Fail Stats:\n')
-    fout.write('Coarse Reverse Queries:'+','.join(coarsefailqueries)+'\n')
-    fout.write('Fine Reverse Queries:'+','.join(coarsefailqueries)+'\n')
-    fout.write('Coarse Reverse Type:')
+    fout.write('Fail Stats:,\n')
+    fout.write('Coarse Reverse Queries:,'+'_'.join(coarsefailqueries)+'\n')
+    fout.write('Fine Reverse Queries:,'+'_'.join(coarsefailqueries)+'\n')
+    fout.write('Coarse Reverse Type:,')
     for k in coarsetypefail:
         fout.write(k+','+str(coarsetypefail[k])+',')
     fout.write('\n')

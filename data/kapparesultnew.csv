@@ -1,0 +1,150 @@
+PAIR:,FRDC-D-C-1A,FRDC-D-C-2A
+INSIST:,16 out of 37,insist rate,43.2432432432%
+Various(any two different):,14 out of 37,various rate,37.8378378378%
+USER:,test28,test29,test30
+Kappa1:,test28&test29,0.268232385661
+Kappa2:,test28&test30,0.304697986577
+Kappa3:,test29&test30,0.348017621145
+AvgKappa:,0.306982664461
+MaxKappa:,0.348017621145
+MinKappa:,0.268232385661
+AvgMaxDiameter:,1.54054054054
+Left Wins:,14
+Right Wins:,10
+Left Right Tie:,13
+
+PAIR:,THUSAM-D-C-1A,FRDC-D-C-1A
+INSIST:,22 out of 41,insist rate,53.6585365854%
+Various(any two different):,6 out of 41,various rate,14.6341463415%
+USER:,test16,test17,test18
+Kappa1:,test16&test17,0.392938496583
+Kappa2:,test16&test18,0.314381270903
+Kappa3:,test17&test18,0.391841779975
+AvgKappa:,0.366387182487
+MaxKappa:,0.392938496583
+MinKappa:,0.314381270903
+AvgMaxDiameter:,1.63414634146
+Left Wins:,31
+Right Wins:,6
+Left Right Tie:,4
+
+PAIR:,THUSAM-D-C-1A,FRDC-D-C-2A
+INSIST:,19 out of 39,insist rate,48.7179487179%
+Various(any two different):,0 out of 39,various rate,0.0%
+USER:,test19,test20,test21
+Kappa1:,test19&test20,0.317901234568
+Kappa2:,test19&test21,0.391891891892
+Kappa3:,test20&test21,0.551724137931
+AvgKappa:,0.420505754797
+MaxKappa:,0.551724137931
+MinKappa:,0.317901234568
+AvgMaxDiameter:,2.41025641026
+Left Wins:,24
+Right Wins:,15
+Left Right Tie:,0
+
+PAIR:,THUSAM-D-C-1A,THUSAM-D-C-2A
+INSIST:,11 out of 48,insist rate,22.9166666667%
+Various(any two different):,5 out of 48,various rate,10.4166666667%
+USER:,test13,test14,test15
+Kappa1:,test13&test14,-0.039175257732
+Kappa2:,test13&test15,0.162303664921
+Kappa3:,test14&test15,0.0894308943089
+AvgKappa:,0.0708531004995
+MaxKappa:,0.162303664921
+MinKappa:,-0.039175257732
+AvgMaxDiameter:,1.875
+Left Wins:,36
+Right Wins:,8
+Left Right Tie:,4
+
+PAIR:,THUSAM-D-C-2A,FRDC-D-C-1A
+INSIST:,23 out of 41,insist rate,56.0975609756%
+Various(any two different):,4 out of 41,various rate,9.75609756098%
+USER:,test22,test23,test24
+Kappa1:,test22&test23,0.444874274662
+Kappa2:,test22&test24,0.506024096386
+Kappa3:,test23&test24,0.382297551789
+AvgKappa:,0.444398640945
+MaxKappa:,0.506024096386
+MinKappa:,0.382297551789
+AvgMaxDiameter:,2.36585365854
+Left Wins:,25
+Right Wins:,13
+Left Right Tie:,3
+
+PAIR:,THUSAM-D-C-2A,FRDC-D-C-2A
+INSIST:,9 out of 39,insist rate,23.0769230769%
+Various(any two different):,7 out of 39,various rate,17.9487179487%
+USER:,test25,test26,test27
+Kappa1:,test25&test26,0.253191489362
+Kappa2:,test25&test27,0.0535894843276
+Kappa3:,test26&test27,0.0723888314374
+AvgKappa:,0.126389935042
+MaxKappa:,0.253191489362
+MinKappa:,0.0535894843276
+AvgMaxDiameter:,2.74358974359
+Left Wins:,26
+Right Wins:,9
+Left Right Tie:,4
+
+PAIR:,TUTA1-D-C-1B,FRDC-D-C-1A
+INSIST:,20 out of 41,insist rate,48.7804878049%
+Various(any two different):,5 out of 41,various rate,12.1951219512%
+USER:,test7,test8,test9
+Kappa1:,test7&test8,0.0177083333333
+Kappa2:,test7&test9,0.416666666667
+Kappa3:,test8&test9,0.379375591296
+AvgKappa:,0.271250197099
+MaxKappa:,0.416666666667
+MinKappa:,0.0177083333333
+AvgMaxDiameter:,2.39024390244
+Left Wins:,27
+Right Wins:,11
+Left Right Tie:,3
+
+PAIR:,TUTA1-D-C-1B,FRDC-D-C-2A
+INSIST:,19 out of 39,insist rate,48.7179487179%
+Various(any two different):,4 out of 39,various rate,10.2564102564%
+USER:,test10,test11,test12
+Kappa1:,test10&test11,0.501597444089
+Kappa2:,test10&test12,0.337579617834
+Kappa3:,test11&test12,-0.0491228070175
+AvgKappa:,0.263351418302
+MaxKappa:,0.501597444089
+MinKappa:,-0.0491228070175
+AvgMaxDiameter:,2.4358974359
+Left Wins:,27
+Right Wins:,10
+Left Right Tie:,2
+
+PAIR:,TUTA1-D-C-1B,THUSAM-D-C-1A
+INSIST:,9 out of 48,insist rate,18.75%
+Various(any two different):,7 out of 48,various rate,14.5833333333%
+USER:,test2,test3,test4
+Kappa1:,test2&test3,0.390781563126
+Kappa2:,test2&test4,0.294589178357
+Kappa3:,test3&test4,0.415584415584
+AvgKappa:,0.366985052356
+MaxKappa:,0.415584415584
+MinKappa:,0.294589178357
+AvgMaxDiameter:,2.64583333333
+Left Wins:,19
+Right Wins:,25
+Left Right Tie:,4
+
+PAIR:,TUTA1-D-C-1B,THUSAM-D-C-2A
+INSIST:,13 out of 48,insist rate,27.0833333333%
+Various(any two different):,4 out of 48,various rate,8.33333333333%
+USER:,test1,test6,test31
+Kappa1:,test1&test6,0.419062027231
+Kappa2:,test1&test31,0.302752293578
+Kappa3:,test6&test31,0.2
+AvgKappa:,0.30727144027
+MaxKappa:,0.419062027231
+MinKappa:,0.2
+AvgMaxDiameter:,2.83333333333
+Left Wins:,30
+Right Wins:,14
+Left Right Tie:,4
+

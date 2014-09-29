@@ -1,0 +1,170 @@
+FRDC-D-C-1A&FRDC-D-C-2A
+Coarse_insist:,2
+Coarse_reverse:,21
+Fine_insist:,2
+Fine_reverse:21
+Coarse Insist:,True
+Fine Insist:,True
+FRDC-D-C-1A,D#nDCG@Coarse,0.4619,D#nDCG@Fine,0.4118,AvgUserPreference,0.4375
+FRDC-D-C-2A,D#nDCG@Coarse,0.3899,D#nDCG@Fine,0.3402,AvgUserPreference,0.4375
+Fail Stats:
+Coarse Reverse Queries:先知,猫头鹰,Adobe,中国水电,云轩,遮天,舍得,秋菊,三字经,阳光,程序员,泰国特产,浴缸,婚戒,三星,饥饿游戏,椰岛造型,卫子夫,佛教音乐,浏览器下载,相亲节目有哪些
+Fine Reverse Queries:先知,猫头鹰,Adobe,中国水电,云轩,遮天,舍得,秋菊,三字经,阳光,程序员,泰国特产,浴缸,婚戒,三星,饥饿游戏,椰岛造型,卫子夫,佛教音乐,浏览器下载,相亲节目有哪些
+Coarse Reverse Type:a,11,b,10,
+Fine Reverse Type:a,11,b,10,Coarse Kappa:,test28,test29,test30,-0.0985074626866,-0.0135593220339,-0.221875
+Fine Kappa:,test28,test29,test30,-0.0985074626866,-0.0135593220339,-0.221875
+
+
+THUSAM-D-C-1A&FRDC-D-C-1A
+Coarse_insist:,14
+Coarse_reverse:,11
+Fine_insist:,14
+Fine_reverse:11
+Coarse Insist:,True
+Fine Insist:,True
+THUSAM-D-C-1A,D#nDCG@Coarse,0.6965,D#nDCG@Fine,0.6127,AvgUserPreference,1.875
+FRDC-D-C-1A,D#nDCG@Coarse,0.4619,D#nDCG@Fine,0.4118,AvgUserPreference,1.875
+Fail Stats:
+Coarse Reverse Queries:三字经,程序员,泰国特产,浴缸,婚戒,饥饿游戏,椰岛造型,野葛根,卫子夫,佛教音乐,浏览器下载
+Fine Reverse Queries:三字经,程序员,泰国特产,浴缸,婚戒,饥饿游戏,椰岛造型,野葛根,卫子夫,佛教音乐,浏览器下载
+Coarse Reverse Type:a,2,b,9,
+Fine Reverse Type:a,3,b,8,Coarse Kappa:,test16,test17,test18,0.0549828178694,-0.0385756676558,-0.0309278350515
+Fine Kappa:,test16,test17,test18,-0.0309278350515,-0.112759643917,-0.0309278350515
+
+
+THUSAM-D-C-1A&FRDC-D-C-2A
+Coarse_insist:,10
+Coarse_reverse:,15
+Fine_insist:,12
+Fine_reverse:13
+Coarse Insist:,True
+Fine Insist:,True
+THUSAM-D-C-1A,D#nDCG@Coarse,0.6965,D#nDCG@Fine,0.6127,AvgUserPreference,1.84375
+FRDC-D-C-2A,D#nDCG@Coarse,0.3899,D#nDCG@Fine,0.3402,AvgUserPreference,1.84375
+Fail Stats:
+Coarse Reverse Queries:先知,波斯猫,Adobe,舍得,三字经,程序员,泰国特产,浴缸,三星,饥饿游戏,椰岛造型,野葛根,秧歌,卫子夫,佛教音乐
+Fine Reverse Queries:先知,波斯猫,Adobe,舍得,三字经,程序员,泰国特产,浴缸,三星,饥饿游戏,椰岛造型,野葛根,秧歌,卫子夫,佛教音乐
+Coarse Reverse Type:a,6,b,9,
+Fine Reverse Type:a,5,b,8,Coarse Kappa:,test19,test20,test21,-0.302931596091,-0.272727272727,-0.0810810810811
+Fine Kappa:,test19,test20,test21,-0.14006514658,-0.0909090909091,-0.216216216216
+
+
+THUSAM-D-C-1A&THUSAM-D-C-2A
+Coarse_insist:,22
+Coarse_reverse:,9
+Fine_insist:,21
+Fine_reverse:10
+Coarse Insist:,True
+Fine Insist:,True
+THUSAM-D-C-1A,D#nDCG@Coarse,0.6965,D#nDCG@Fine,0.6127,AvgUserPreference,1.46875
+THUSAM-D-C-2A,D#nDCG@Coarse,0.3502,D#nDCG@Fine,0.2623,AvgUserPreference,1.46875
+Fail Stats:
+Coarse Reverse Queries:Adobe,云轩,舍得,科学美国人,浴缸,三星,饥饿游戏,椰岛造型,相亲节目有哪些
+Fine Reverse Queries:Adobe,云轩,舍得,科学美国人,浴缸,三星,饥饿游戏,椰岛造型,相亲节目有哪些
+Coarse Reverse Type:a,3,b,6,
+Fine Reverse Type:a,4,b,6,Coarse Kappa:,test13,test14,test15,0.112334801762,-0.0466237942122,0.0653266331658
+Fine Kappa:,test13,test14,test15,0.020316027088,-0.0533980582524,-0.0467532467532
+
+
+THUSAM-D-C-2A&FRDC-D-C-1A
+Coarse_insist:,6
+Coarse_reverse:,19
+Fine_insist:,6
+Fine_reverse:19
+Coarse Insist:,False
+Fine Insist:,False
+THUSAM-D-C-2A,D#nDCG@Coarse,0.3502,D#nDCG@Fine,0.2623,AvgUserPreference,2.125
+FRDC-D-C-1A,D#nDCG@Coarse,0.4619,D#nDCG@Fine,0.4118,AvgUserPreference,2.125
+Fail Stats:
+Coarse Reverse Queries:先知,Adobe,中国水电,云轩,遮天,舍得,三字经,阳光,泰国特产,浴缸,婚戒,三星,饥饿游戏,椰岛造型,野葛根,卫子夫,佛教音乐,浏览器下载,相亲节目有哪些
+Fine Reverse Queries:先知,Adobe,中国水电,云轩,遮天,舍得,三字经,阳光,泰国特产,浴缸,婚戒,三星,饥饿游戏,椰岛造型,野葛根,卫子夫,佛教音乐,浏览器下载,相亲节目有哪些
+Coarse Reverse Type:a,8,b,11,
+Fine Reverse Type:a,8,b,11,Coarse Kappa:,test22,test23,test24,-0.158038147139,-0.226158038147,-0.211734693878
+Fine Kappa:,test22,test23,test24,-0.158038147139,-0.226158038147,-0.211734693878
+
+
+THUSAM-D-C-2A&FRDC-D-C-2A
+Coarse_insist:,4
+Coarse_reverse:,21
+Fine_insist:,4
+Fine_reverse:21
+Coarse Insist:,False
+Fine Insist:,False
+THUSAM-D-C-2A,D#nDCG@Coarse,0.3502,D#nDCG@Fine,0.2623,AvgUserPreference,1.46875
+FRDC-D-C-2A,D#nDCG@Coarse,0.3899,D#nDCG@Fine,0.3402,AvgUserPreference,1.46875
+Fail Stats:
+Coarse Reverse Queries:先知,波斯猫,猫头鹰,Adobe,传奇,中国水电,云轩,三字经,阳光,泰国特产,浴缸,婚戒,三星,饥饿游戏,椰岛造型,野葛根,秧歌,卫子夫,佛教音乐,浏览器下载,相亲节目有哪些
+Fine Reverse Queries:先知,波斯猫,猫头鹰,Adobe,传奇,中国水电,云轩,三字经,阳光,泰国特产,浴缸,婚戒,三星,饥饿游戏,椰岛造型,野葛根,秧歌,卫子夫,佛教音乐,浏览器下载,相亲节目有哪些
+Coarse Reverse Type:a,9,b,12,
+Fine Reverse Type:a,9,b,12,Coarse Kappa:,test25,test26,test27,-0.355013550136,-0.290760869565,-0.0330578512397
+Fine Kappa:,test25,test26,test27,-0.355013550136,-0.290760869565,-0.0330578512397
+
+
+TUTA1-D-C-1B&FRDC-D-C-1A
+Coarse_insist:,15
+Coarse_reverse:,10
+Fine_insist:,13
+Fine_reverse:12
+Coarse Insist:,True
+Fine Insist:,True
+TUTA1-D-C-1B,D#nDCG@Coarse,0.7334,D#nDCG@Fine,0.6538,AvgUserPreference,1.375
+FRDC-D-C-1A,D#nDCG@Coarse,0.4619,D#nDCG@Fine,0.4118,AvgUserPreference,1.375
+Fail Stats:
+Coarse Reverse Queries:猫头鹰,Adobe,中国水电,云轩,遮天,三字经,阳光,浴缸,椰岛造型,秧歌
+Fine Reverse Queries:猫头鹰,Adobe,中国水电,云轩,遮天,三字经,阳光,浴缸,椰岛造型,秧歌
+Coarse Reverse Type:a,7,b,3,
+Fine Reverse Type:a,7,b,5,Coarse Kappa:,test7,test8,test9,-0.111111111111,0.140625,0.0740740740741
+Fine Kappa:,test7,test8,test9,-0.190476190476,-0.015625,-0.0185185185185
+
+
+TUTA1-D-C-1B&FRDC-D-C-2A
+Coarse_insist:,15
+Coarse_reverse:,10
+Fine_insist:,15
+Fine_reverse:10
+Coarse Insist:,True
+Fine Insist:,True
+TUTA1-D-C-1B,D#nDCG@Coarse,0.7334,D#nDCG@Fine,0.6538,AvgUserPreference,1.6875
+FRDC-D-C-2A,D#nDCG@Coarse,0.3899,D#nDCG@Fine,0.3402,AvgUserPreference,1.6875
+Fail Stats:
+Coarse Reverse Queries:先知,波斯猫,猫头鹰,Adobe,传奇,中国水电,云轩,阳光,婚戒,野葛根
+Fine Reverse Queries:先知,波斯猫,猫头鹰,Adobe,传奇,中国水电,云轩,阳光,婚戒,野葛根
+Coarse Reverse Type:a,8,b,2,
+Fine Reverse Type:a,8,b,2,Coarse Kappa:,test10,test11,test12,0.0384615384615,-0.063829787234,-0.190476190476
+Fine Kappa:,test10,test11,test12,0.0384615384615,-0.063829787234,-0.190476190476
+
+
+TUTA1-D-C-1B&THUSAM-D-C-1A
+Coarse_insist:,13
+Coarse_reverse:,18
+Fine_insist:,14
+Fine_reverse:17
+Coarse Insist:,False
+Fine Insist:,False
+TUTA1-D-C-1B,D#nDCG@Coarse,0.7334,D#nDCG@Fine,0.6538,AvgUserPreference,-0.65625
+THUSAM-D-C-1A,D#nDCG@Coarse,0.6965,D#nDCG@Fine,0.6127,AvgUserPreference,-0.65625
+Fail Stats:
+Coarse Reverse Queries:波斯猫,猫头鹰,中国水电,云轩,遮天,秋菊,三毛,阳光,泰国特产,科学美国人,黄金,浴缸,婚戒,心理测试,椰岛造型,野葛根,秧歌,卫子夫
+Fine Reverse Queries:波斯猫,猫头鹰,中国水电,云轩,遮天,秋菊,三毛,阳光,泰国特产,科学美国人,黄金,浴缸,婚戒,心理测试,椰岛造型,野葛根,秧歌,卫子夫
+Coarse Reverse Type:a,8,b,10,
+Fine Reverse Type:a,7,b,10,Coarse Kappa:,test2,test3,test4,0.106995884774,-0.0671256454389,-0.0382775119617
+Fine Kappa:,test2,test3,test4,0.121457489879,-0.024347826087,-0.11986863711
+
+
+TUTA1-D-C-1B&THUSAM-D-C-2A
+Coarse_insist:,18
+Coarse_reverse:,13
+Fine_insist:,17
+Fine_reverse:14
+Coarse Insist:,True
+Fine Insist:,True
+TUTA1-D-C-1B,D#nDCG@Coarse,0.7334,D#nDCG@Fine,0.6538,AvgUserPreference,0.875
+THUSAM-D-C-2A,D#nDCG@Coarse,0.3502,D#nDCG@Fine,0.2623,AvgUserPreference,0.875
+Fail Stats:
+Coarse Reverse Queries:先知,波斯猫,小米,云轩,遮天,嫦娥,程序员,科学美国人,婚戒,心理测试,椰岛造型,秧歌,哈利波特
+Fine Reverse Queries:先知,波斯猫,小米,云轩,遮天,嫦娥,程序员,科学美国人,婚戒,心理测试,椰岛造型,秧歌,哈利波特
+Coarse Reverse Type:a,7,b,6,
+Fine Reverse Type:a,8,b,6,Coarse Kappa:,test1,test6,test31,0.0868924889543,-0.142105263158,-0.00764818355641
+Fine Kappa:,test1,test6,test31,0.0426470588235,-0.095406360424,-0.0856031128405
+
+
